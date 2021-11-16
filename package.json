@@ -1,0 +1,18 @@
+{
+    "name": "com.example.sla",
+    "version": "0.0.1",
+    "description": "手势控制智能灯",
+    "repository": "https://github.com/edgeros/tpl-simple.git",
+    "main": "main.js",
+    "scripts": {
+        "build": "eos build"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.23.0",
+        "@edgeros/jsre-types": "^0.1.1",
+        "@edgeros/eslint-plugin-jsre": "^0.0.3"
+    },
+    "author": "muzh_ao@163.com"
+}

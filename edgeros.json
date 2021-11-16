@@ -1,0 +1,48 @@
+{
+    "name": "smart-light-ai",
+    "bundleid": "com.example.sla",
+    "ignore_modules": [
+        "@edgeros/eslint-plugin-jsre",
+        "@edgeros/jsre-types"
+    ],
+    "ignore_path": [
+        "./test/**",
+        "./temp/**"
+    ],
+    "assets": {
+        "ico_big": "assets/big.png",
+        "ico_small": "assets/small.png",
+        "ico_widget": "assets/widget.png",
+        "splash": "assets/splash.png"
+    },
+    "program": {
+        "gss": false,
+        "log": "console",
+        "will": false,
+        "reside": false,
+        "mesv": "1.0.0",
+        "experimental": false
+    },
+    "vendor": {
+        "id": "793879aafc18470d9385b6991c6326e5",
+        "name": "scottmu",
+        "email": "muzh_ao@163.com",
+        "phone": "",
+        "fax": ""
+    },
+    "update": {
+        "remove": [
+            "public"
+        ]
+    },
+    "widget": [
+        {
+            "ico": "ico_widget",
+            "name": "My Widget",
+            "path": "widget",
+            "rows": 2,
+            "columns": 2,
+            "category": "Demo"
+        }
+    ]
+}
