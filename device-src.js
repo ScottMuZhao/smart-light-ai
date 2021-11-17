@@ -11,7 +11,6 @@
  */
 const Device = require('device');
 const MediaDecoder = require('mediadecoder');
-const facenn = require('facenn');
 const handnn = require('handnn');
 
 const FlvSrc = require('webmedia/source/flv');
